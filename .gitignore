@@ -1,0 +1,4 @@
+.env
+__pycache__/
+result.json
+batch_result.json
