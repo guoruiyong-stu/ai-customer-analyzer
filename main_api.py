@@ -24,7 +24,7 @@ def home():
 @app.post("/analyze")
 def analyze(customer: Customer):
 
-    customer_data = customer.model_dump()
+    customer_data = customer.model_dump()git branch -M main
 
     # 1. 保存客户
     customer_result = (
